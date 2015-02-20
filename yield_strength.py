@@ -22,6 +22,7 @@ I = (a**4) / 12
 sum_len = b1 + b2 + b3 + h + 2 * l
 
 M = F * sum_len + \
+	wh * (sum_len - h / 2) + \
 	wm * (sum_len - h) + \
 	wm * (sum_len - h - b3) + \
 	w * (sum_len - h - b3 - l/2) + \
